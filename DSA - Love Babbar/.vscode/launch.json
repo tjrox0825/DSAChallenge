@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": true,
+      "externalConsole": false,
+      "cwd": "/Users/tjrox0825/Downloads/DSA - Love Babbar",
+      "program": "/Users/tjrox0825/Downloads/DSA - Love Babbar/build/Debug/outDebug",
+      "MIMode": "gdb"
+    }
+  ]
+}
