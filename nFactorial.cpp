@@ -27,9 +27,15 @@ int main()
 			int n;
 			cout<<" Enter number n to find factorial: ";
 			cin >> n;
-			cout<<" Factorial is: ";
-			cout << fact(n) << endl;
-			break;
+			if(n<0) {
+				cout<< "Enter a positive integer "<<endl;
+				
+			}
+			else {
+				cout<<" Factorial is: ";
+				cout << fact(n) << endl;
+				break;
+			}
 
 			}
 			
@@ -38,7 +44,7 @@ int main()
 				break;
 			}
 
-			cout << "Enter 1 to continue or 2 to exit";
+			cout << "Enter 1 to continue or 2 to exit"<<endl;
 			cin>>option;
 		
 		
